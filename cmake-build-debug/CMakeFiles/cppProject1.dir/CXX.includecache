@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kimdaehee/CLionProjects/cppProject1/CMyString.cpp
+CMyString.h
+/Users/kimdaehee/CLionProjects/cppProject1/CMyString.h
+
+/Users/kimdaehee/CLionProjects/cppProject1/CMyString.h
+
+/Users/kimdaehee/CLionProjects/cppProject1/StringSample1234.cpp
+iostream
+-
+CMyString.h
+/Users/kimdaehee/CLionProjects/cppProject1/CMyString.h
+
