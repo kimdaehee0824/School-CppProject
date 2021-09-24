@@ -8,24 +8,29 @@ CMyString::CMyString(): m_nLength(0), m_pszData(nullptr)
 
 CMyString::~CMyString()
 {
+    Release();
 }
 
 int CMyString::SetString(const char* pszParam)
 {
-    m_nLength = strlen(pszParam);
-    pszParam = new char [m_nLength];
+    int size = strlen(pszParam);
+    m_pszData = new char[size + 1];
     strcpy(m_pszData, pszParam);
-
+    this -> m_nLength = size;
     return 0;
 }
 
 const char* CMyString::GetString()
 {
-    // TODO: 여기에 구현 코드 추가.
-    return nullptr;
+    if (m_pszData == nullptr) {
+        return "CMyString is Empty\n";
+    } else {
+        return m_pszData;
+    }
 }
 
 void CMyString::Release()
 {
-    // TODO: 여기에 구현 코드 추가.
+    delete[] m_pszData;
+    m_pszData = nullptr;
 }
