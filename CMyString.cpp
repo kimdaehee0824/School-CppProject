@@ -20,7 +20,7 @@ int CMyString::SetString(const char* pszParam)
     return 0;
 }
 
-const char* CMyString::GetString()
+const char* CMyString::GetString() const
 {
     if (m_pszData == nullptr) {
         return "CMyString is Empty\n";

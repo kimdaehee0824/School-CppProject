@@ -1,6 +1,12 @@
 #include <iostream>
 #include "CMyString.h"  // CMyString 클래스 사용을 위해 헤더파일 추가
 using namespace std;
+
+void TestFunc(const CMyString& param)
+{
+    cout << param.GetString() << endl;
+}
+
 int main()
 {
     CMyString strData1;
@@ -25,7 +31,10 @@ int main()
     cout << strData3.GetString() << endl;
     strData3.Release();
 
-    strData3.Release();
+    strData3.SetString("Hello World");
+    TestFunc(strData3);
     cout << strData3.GetString() << endl;
+    strData3.Release();
+
     return 0;
 }

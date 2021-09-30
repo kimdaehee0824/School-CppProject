@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/kimdaehee/CLionProjects/cppProject1/CMyDataArr.cpp">
+			<Option target="cppProject1"/>
+		</Unit>
+		<Unit filename="/Users/kimdaehee/CLionProjects/cppProject1/CMyDataArr.h">
+			<Option target="cppProject1"/>
+		</Unit>
 		<Unit filename="/Users/kimdaehee/CLionProjects/cppProject1/CMyString.cpp">
 			<Option target="cppProject1"/>
 		</Unit>

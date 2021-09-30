@@ -129,6 +129,30 @@ cppProject1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppProject1.dir/build.make CMakeFiles/cppProject1.dir/build
 .PHONY : cppProject1/fast
 
+CMyDataArr.o: CMyDataArr.cpp.o
+.PHONY : CMyDataArr.o
+
+# target to build an object file
+CMyDataArr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppProject1.dir/build.make CMakeFiles/cppProject1.dir/CMyDataArr.cpp.o
+.PHONY : CMyDataArr.cpp.o
+
+CMyDataArr.i: CMyDataArr.cpp.i
+.PHONY : CMyDataArr.i
+
+# target to preprocess a source file
+CMyDataArr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppProject1.dir/build.make CMakeFiles/cppProject1.dir/CMyDataArr.cpp.i
+.PHONY : CMyDataArr.cpp.i
+
+CMyDataArr.s: CMyDataArr.cpp.s
+.PHONY : CMyDataArr.s
+
+# target to generate assembly for a file
+CMyDataArr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppProject1.dir/build.make CMakeFiles/cppProject1.dir/CMyDataArr.cpp.s
+.PHONY : CMyDataArr.cpp.s
+
 CMyString.o: CMyString.cpp.o
 .PHONY : CMyString.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cppProject1"
+	@echo "... CMyDataArr.o"
+	@echo "... CMyDataArr.i"
+	@echo "... CMyDataArr.s"
 	@echo "... CMyString.o"
 	@echo "... CMyString.i"
 	@echo "... CMyString.s"

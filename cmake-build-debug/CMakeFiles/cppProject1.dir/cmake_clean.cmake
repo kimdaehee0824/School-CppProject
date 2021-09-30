@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/cppProject1.dir/CMyDataArr.cpp.o"
   "CMakeFiles/cppProject1.dir/CMyString.cpp.o"
   "CMakeFiles/cppProject1.dir/StringSample1234.cpp.o"
   "cppProject1"
