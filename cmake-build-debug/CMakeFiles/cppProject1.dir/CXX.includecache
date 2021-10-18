@@ -6,20 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/kimdaehee/CLionProjects/cppProject1/CMyDataArr.cpp
-iostream
--
-CMyDataArr.h
-/Users/kimdaehee/CLionProjects/cppProject1/CMyDataArr.h
-
-/Users/kimdaehee/CLionProjects/cppProject1/CMyDataArr.h
-
-/Users/kimdaehee/CLionProjects/cppProject1/CMyString.cpp
-CMyString.h
-/Users/kimdaehee/CLionProjects/cppProject1/CMyString.h
-string.h
--
-
 /Users/kimdaehee/CLionProjects/cppProject1/CMyString.h
 
 /Users/kimdaehee/CLionProjects/cppProject1/StringSample1234.cpp
